@@ -1,0 +1,149 @@
+cv:
+  name: Haydn Thomson
+  email: haydnthomson@hotmail.com
+  phone: tel:+6402108949250
+  social_networks:
+    - network: LinkedIn
+      username: haydn-thomson-b7b967109
+    - network: GitHub
+      username: haydn202
+  sections:
+    profile:
+      - Dedicated Software Engineer with a strong background in DevOps, Cloud Engineering, and full-stack development. At OSPRI, I lead cloud optimization initiatives, reducing costs by over \$100,000 monthly. Known for quickly learning new skills and solving complex problems, I am seeking a new role to expand my expertise and make impactful contributions.
+
+    experience:
+      - company: OSPRI
+        position: Senior Software Developer
+        start_date: 2023
+        end_date: present
+        highlights:
+          - Develop event-driven microservice system with C# and .Net.
+          - Create Single page application UI using Angular and Typescript.
+          - Lead DevOps and Cloud Engineering work reducing monthly costs by over \$100,000.
+          - Mentor and train other staff.
+          - Contribute to system design and cloud architecture.
+
+      - company: OSPRI
+        position: Cloud Infrastructure DevOps Engineer
+        start_date: 2021
+        end_date: 2023
+        highlights:
+          - Create and maintain Cloud Infrastructure using Infrastructure as Code tools including Terraform and Pulumi.
+          - Set up CI/CD pipelines with Azure DevOps to automate integration, deployment, and testing.
+          - Create automation scripts with Bash, Powershell, and Python.
+          - Manage microservice based system in Kubernetes with tools such as Helm, and the container technology Docker.
+          - Fullstack Development of a SPA UI with angular and typescript and backend services using .Net and C#.
+
+      - company: OSPRI
+        position: Software Developer
+        start_date: 2021-03
+        end_date: 2023-08
+        highlights:
+          - Develop event driven .Net microservice APIs as part of a new system.
+
+      - company: MPI
+        position: Senior Technician - Team Lead
+        start_date: 2018
+        end_date: 2020
+        highlights:
+          - Supervise, organise, and train junior staff members.
+          - Work as part of a team to efficiently process samples and provide results promptly.
+
+    education:
+      - institution: Victoria University
+        area: Software Development
+        degree: Masters Degree
+        start_date: 2020
+        end_date: 2021
+        highlights:
+          - '**Grade**: Distinction'
+
+      - institution: Victoria University
+        area: Molecular Microbiology
+        degree: Masters Degree
+        start_date: 2016
+        end_date: 2018
+        highlights:
+          - '**Grade**: First Class Honors'
+          - 'Research conducted in the Center for Bio-discovery at Victoria University.'
+
+      - institution: Victoria University
+        area: Biomedical Science
+        degree: Bachelors degree
+        start_date: 2013
+        end_date: 2015
+        highlights:
+          - '**Achivements:** Deans List of Academic Excellence'
+
+    professional_development:
+      - I am a member of a mentoring program at Victoria University where I mentor Software Development students to prepare them for entering the IT industry. As part of this, I give them insights into careers and technologies not well covered by their university courses such as Cloud Engineering and DevOps. I have been involved in this for two years.
+
+    certifications:
+      - Microsoft Certified Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d))
+      - Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
+    # projects:
+    #   - name: Multi-User Drawing Tool
+    #     date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+    #     highlights:
+    #       - Developed an electronic classroom where multiple users
+    #         can simultaneously view and draw on a "chalkboard"
+    #         with each person's edits synchronized
+    #       - 'Tools Used: C++, MFC'
+    #   - name: Synchronized Desktop Calendar
+    #     date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+    #     highlights:
+    #       - Developed a desktop calendar with globally shared
+    #         and synchronized calendars, allowing users to schedule
+    #         meetings with other users
+    #       - 'Tools Used: C#, .NET, SQL, XML'
+    #   - name: Custom Operating System
+    #     date: 2002
+    #     highlights:
+    #       - Built a UNIX-style OS with a scheduler, file system,
+    #         text editor, and calculator
+    #       - 'Tools Used: C'
+    # technologies:
+    #   - label: Languages
+    #     details: C++, C, Java, Objective-C, C#, SQL, JavaScript
+    #   - label: Technologies
+    #     details: .NET, Microsoft SQL Server, XCode, Interface
+    #       Builder
+
+design:
+  theme: engineeringresumes
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: ''
+  disable_last_updated_date: false
+  last_updated_date_style: ''
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      # education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  # show_timespan_in: []
