@@ -37,7 +37,7 @@ cv:
       - company: OSPRI
         position: Software Developer
         start_date: 2021-03
-        end_date: 2023-08
+        end_date: 2021-08
         highlights:
           - Develop event driven .Net microservice APIs as part of a new system.
 
