@@ -81,33 +81,6 @@ cv:
     certifications:
       - Microsoft Certified Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d))
       - Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
-    # projects:
-    #   - name: Multi-User Drawing Tool
-    #     date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-    #     highlights:
-    #       - Developed an electronic classroom where multiple users
-    #         can simultaneously view and draw on a "chalkboard"
-    #         with each person's edits synchronized
-    #       - 'Tools Used: C++, MFC'
-    #   - name: Synchronized Desktop Calendar
-    #     date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-    #     highlights:
-    #       - Developed a desktop calendar with globally shared
-    #         and synchronized calendars, allowing users to schedule
-    #         meetings with other users
-    #       - 'Tools Used: C#, .NET, SQL, XML'
-    #   - name: Custom Operating System
-    #     date: 2002
-    #     highlights:
-    #       - Built a UNIX-style OS with a scheduler, file system,
-    #         text editor, and calculator
-    #       - 'Tools Used: C'
-    # technologies:
-    #   - label: Languages
-    #     details: C++, C, Java, Objective-C, C#, SQL, JavaScript
-    #   - label: Technologies
-    #     details: .NET, Microsoft SQL Server, XCode, Interface
-    #       Builder
 
 design:
   theme: engineeringresumes
