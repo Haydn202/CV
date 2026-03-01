@@ -101,6 +101,29 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
 #regular-entry(
   [
+    #strong[Senior Backend Engineer], ComplyWith
+
+  ],
+  [
+    Jan 2025 – present
+
+  ],
+  main-column-second-row: [
+    - Built CI\/CD pipelines to automate builds and deployments, turning a lengthy error-prone process into a repeatable workflow and reducing deployment time from hours to under 5 minutes.
+
+    - Created E2E and integration test suites integrated into CI\/CD pipelines to improve reliability and catch regressions early.
+
+    - Refactored legacy systems to modern standards and patterns while delivering major new features.
+
+    - Introduced an agentic AI-assisted coding process for the software team.
+
+    - Mentor and train junior staff in best practices and tooling.
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Senior Software Developer], OSPRI
 
   ],

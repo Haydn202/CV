@@ -22,6 +22,22 @@
 Dedicated Software Engineer with a strong background in DevOps, Cloud Engineering, and full-stack development. At OSPRI, I lead cloud optimization initiatives, reducing costs by over \$100,000 monthly. Known for quickly learning new skills and solving complex problems, I am seeking a new role to expand my expertise and make impactful contributions.
 
 # <<section_title>>
+## **Senior Backend Engineer**, ComplyWith
+
+Jan 2025 – present
+
+- Built CI/CD pipelines to automate builds and deployments, turning a lengthy error-prone process into a repeatable workflow and reducing deployment time from hours to under 5 minutes.
+
+- Created E2E and integration test suites integrated into CI/CD pipelines to improve reliability and catch regressions early.
+
+- Refactored legacy systems to modern standards and patterns while delivering major new features.
+
+- Introduced an agentic AI-assisted coding process for the software team.
+
+- Mentor and train junior staff in best practices and tooling.
+
+
+
 ## **Senior Software Developer**, OSPRI
 
 2023 – present
