@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-        Haydn Thomson's CV
+        
     </title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
         integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
     <style>
         .markdown-body {
             box-sizing: border-box;
@@ -31,65 +39,101 @@
 
 <body>
     <article class="markdown-body">
-        <h1>Haydn Thomson's CV</h1>
-        <ul>
-        <li>Phone: +64 210 894 9250</li>
-        <li>Email: <a href="mailto:haydnthomson@hotmail.com">haydnthomson@hotmail.com</a></li>
-        <li>LinkedIn: <a href="https://linkedin.com/in/haydn-thomson-b7b967109">haydn-thomson-b7b967109</a></li>
-        <li>GitHub: <a href="https://github.com/haydn202">haydn202</a></li>
-        </ul>
-        <h1>Profile</h1>
+        <h1>&lt;<cv.name>&gt;'s CV</h1>
+        <p>((<em> if cv.phone </em>))
+        - Phone: &lt;<cv.phone|replace("tel:", "")|replace("-"," ")>&gt;
+        ((<em> endif </em>))
+        ((<em> if cv.email </em>))
+        - Email: <a href="mailto:&lt;&lt;cv.email&gt;&gt;">&lt;<cv.email>&gt;</a>
+        ((<em> endif </em>))
+        ((<em> if cv.location </em>))
+        - Location: &lt;<cv.location>&gt;
+        ((<em> endif </em>))
+        ((<em> if cv.website </em>))
+        - Website: <a href="&lt;&lt;cv.website&gt;&gt;">&lt;<cv.website|replace("https://","")|replace("/","")>&gt;</a>
+        ((<em> endif </em>))
+        ((<em> if cv.social_networks </em>))
+            ((<em> for network in cv.social_networks </em>))
+        - &lt;<network.network>&gt;: <a href="&lt;&lt;network.url&gt;&gt;">&lt;<network.username>&gt;</a>
+            ((<em> endfor </em>))
+        ((<em> endif </em>))</p>
+        <h1>&lt;<section_title>&gt;</h1>
         <p>Dedicated Software Engineer with a strong background in DevOps, Cloud Engineering, and full-stack development. At OSPRI, I lead cloud optimization initiatives, reducing costs by over \$100,000 monthly. Known for quickly learning new skills and solving complex problems, I am seeking a new role to expand my expertise and make impactful contributions.</p>
-        <h1>Experience</h1>
-        <h2>OSPRI, Senior Software Developer</h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Senior Software Developer</strong>, OSPRI</h2>
+        <p>2023 – present</p>
         <ul>
-        <li>2023 – present</li>
-        <li>Develop event-driven microservice system with C# and .Net.</li>
-        <li>Create Single page application UI using Angular and Typescript.</li>
-        <li>Lead DevOps and Cloud Engineering work reducing monthly costs by over \$100,000.</li>
-        <li>Mentor and train other staff.</li>
-        <li>Contribute to system design and cloud architecture.</li>
+        <li>
+        <p>Develop event-driven microservice system with C# and .Net.</p>
+        </li>
+        <li>
+        <p>Create Single page application UI using Angular and Typescript.</p>
+        </li>
+        <li>
+        <p>Lead DevOps and Cloud Engineering work reducing monthly costs by over \$100,000.</p>
+        </li>
+        <li>
+        <p>Mentor and train other staff.</p>
+        </li>
+        <li>
+        <p>Contribute to system design and cloud architecture.</p>
+        </li>
         </ul>
-        <h2>OSPRI, Cloud Infrastructure DevOps Engineer</h2>
+        <h2><strong>Cloud Infrastructure DevOps Engineer</strong>, OSPRI</h2>
+        <p>2021 – 2023</p>
         <ul>
-        <li>2021 – 2023</li>
-        <li>Create and maintain Cloud Infrastructure using Infrastructure as Code tools including Terraform and Pulumi.</li>
-        <li>Set up CI/CD pipelines with Azure DevOps to automate integration, deployment, and testing.</li>
-        <li>Create automation scripts with Bash, Powershell, and Python.</li>
-        <li>Manage microservice based system in Kubernetes with tools such as Helm, and the container technology Docker.</li>
-        <li>Fullstack Development of a SPA UI with angular and typescript and backend services using .Net and C#.</li>
+        <li>
+        <p>Create and maintain Cloud Infrastructure using Infrastructure as Code tools including Terraform and Pulumi.</p>
+        </li>
+        <li>
+        <p>Set up CI/CD pipelines with Azure DevOps to automate integration, deployment, and testing.</p>
+        </li>
+        <li>
+        <p>Create automation scripts with Bash, Powershell, and Python.</p>
+        </li>
+        <li>
+        <p>Manage microservice based system in Kubernetes with tools such as Helm, and the container technology Docker.</p>
+        </li>
+        <li>
+        <p>Fullstack Development of a SPA UI with angular and typescript and backend services using .Net and C#.</p>
+        </li>
         </ul>
-        <h2>OSPRI, Software Developer</h2>
+        <h2><strong>Software Developer</strong>, OSPRI</h2>
+        <p>Mar 2021 – Aug 2021</p>
         <ul>
-        <li>Mar 2021 – Aug 2023</li>
         <li>Develop event driven .Net microservice APIs as part of a new system.</li>
         </ul>
-        <h2>MPI, Senior Technician - Team Lead</h2>
+        <h2><strong>Senior Technician - Team Lead</strong>, MPI</h2>
+        <p>2018 – 2020</p>
         <ul>
-        <li>2018 – 2020</li>
-        <li>Supervise, organise, and train junior staff members.</li>
-        <li>Work as part of a team to efficiently process samples and provide results promptly.</li>
+        <li>
+        <p>Supervise, organise, and train junior staff members.</p>
+        </li>
+        <li>
+        <p>Work as part of a team to efficiently process samples and provide results promptly.</p>
+        </li>
         </ul>
-        <h1>Education</h1>
-        <h2>Victoria University, Masters Degree in Software Development</h2>
+        <h1>&lt;<section_title>&gt;</h1>
+        <h2><strong>Victoria University</strong>, Masters Degree in Software Development2020 – 2021</h2>
         <ul>
-        <li>2020 – 2021</li>
         <li><strong>Grade</strong>: Distinction</li>
         </ul>
-        <h2>Victoria University, Masters Degree in Molecular Microbiology</h2>
+        <h2><strong>Victoria University</strong>, Masters Degree in Molecular Microbiology2016 – 2018</h2>
         <ul>
-        <li>2016 – 2018</li>
-        <li><strong>Grade</strong>: First Class Honors</li>
-        <li>Research conducted in the Center for Bio-discovery at Victoria University.</li>
+        <li>
+        <p><strong>Grade</strong>: First Class Honors</p>
+        </li>
+        <li>
+        <p>Research conducted in the Center for Bio-discovery at Victoria University.</p>
+        </li>
         </ul>
-        <h2>Victoria University, Bachelors degree in Biomedical Science</h2>
+        <h2><strong>Victoria University</strong>, Bachelors degree in Biomedical Science2013 – 2015</h2>
         <ul>
-        <li>2013 – 2015</li>
         <li><strong>Achivements:</strong> Deans List of Academic Excellence</li>
         </ul>
-        <h1>Professional Development</h1>
+        <h1>&lt;<section_title>&gt;</h1>
         <p>I am a member of a mentoring program at Victoria University where I mentor Software Development students to prepare them for entering the IT industry. As part of this, I give them insights into careers and technologies not well covered by their university courses such as Cloud Engineering and DevOps. I have been involved in this for two years.</p>
-        <h1>Certifications</h1>
+        <h1>&lt;<section_title>&gt;</h1>
         <p>Microsoft Certified Azure Fundamentals (<a href="https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d">AZ-900</a>)</p>
         <p>Kubernetes and Cloud Native Associate (<a href="https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile">KCNA</a>)</p>
     </article>
