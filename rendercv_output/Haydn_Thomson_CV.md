@@ -1,6 +1,6 @@
 # **Haydn Thomson**
 
- • +64 210 894 9250 • [haydnthomson@hotmail.com](mailto:haydnthomson@hotmail.com)
++64 210 894 9250 • [haydnthomson@hotmail.com](mailto:haydnthomson@hotmail.com) • [rubberduckdiaries.net](https://rubberduckdiaries.net/)
 
 ---
 
