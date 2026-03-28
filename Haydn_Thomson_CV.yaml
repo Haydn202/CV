@@ -15,6 +15,14 @@ cv:
     profile:
       - Senior Software Engineer specializing in backend systems, cloud engineering, and DevOps. Proven track record of reducing cloud costs by $100K+ per month and building scalable CI/CD pipelines and microservice architectures. Strong focus on system reliability, automation, and developer productivity. Seeking to contribute high-impact engineering expertise.
 
+    skills:
+      - |
+        **Languages & platforms:** C#, .NET, TypeScript, Python, Bash, PowerShell
+
+        **Cloud & infrastructure:** Azure, Kubernetes, Docker, Helm, Terraform, Pulumi, Azure DevOps, CI/CD
+
+        **Certifications:** Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d)) • Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
+
     experience:
       - company: ComplyWith
         position: Senior Backend Engineer
@@ -62,29 +70,11 @@ cv:
       #     - Led and trained team members in high-throughput laboratory environment
       #     - Improved team efficiency and turnaround of sample processing
 
+    # One string per degree so Typst emits separate blocks (single multiline paragraph joins lines).
     education:
-      - institution: Victoria University
-        area: Software Development
-        degree: Master
-        start_date: 2020
-        end_date: 2021
-        summary: Distinction
-
-      - institution: Victoria University
-        area: Molecular Microbiology
-        degree: Master
-        start_date: 2016
-        end_date: 2018
-        summary: First Class Honours
-
-      - institution: Victoria University
-        area: Biomedical Science
-        degree: Bachelor
-        start_date: 2013
-        end_date: 2015
-
-    certifications:
-      - Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d)) • Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
+      - "**Master of Software Development** — Victoria University *(Distinction)* · 2020–2021"
+      - "**Master of Molecular Microbiology** — Victoria University *(First Class Honours)* · 2016–2018"
+      - "**Bachelor of Biomedical Science** — Victoria University *(Dean's List)* · 2013–2015"
 
     mentoring:
       - Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps (2+ years)
@@ -138,7 +128,8 @@ design:
 
   sections:
     space_between_regular_entries: 0.42cm
-    space_between_text_based_entries: 0.2cm
+    # Slightly tighter gaps between profile / skills / mentoring text blocks
+    space_between_text_based_entries: 0.14cm
     show_time_spans_in: []
 
   entries:
@@ -153,8 +144,3 @@ design:
       space_between_items: 0.1cm
       space_between_bullet_and_text: 0.36em
 
-  templates:
-    education_entry:
-      main_column: "**DEGREE of AREA** — INSTITUTION *(SUMMARY)*"
-      date_and_location_column: DATE
-      degree_column: null

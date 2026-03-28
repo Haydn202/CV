@@ -10,6 +10,17 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 ---
 
+## **Skills**
+
+**Languages & platforms:** C#, .NET, TypeScript, Python, Bash, PowerShell
+
+**Cloud & infrastructure:** Azure, Kubernetes, Docker, Helm, Terraform, Pulumi, Azure DevOps, CI/CD
+
+**Certifications:** Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d)) • Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
+
+
+---
+
 ## **Experience**
 
 ### **Senior Backend Engineer — ComplyWith**
@@ -61,17 +72,11 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 ## **Education**
 
-**Master of Software Development** — Victoria University *(Distinction)*
+**Master of Software Development** — Victoria University *(Distinction)* · 2020–2021
 
-**Master of Molecular Microbiology** — Victoria University *(First Class Honours)*
+**Master of Molecular Microbiology** — Victoria University *(First Class Honours)* · 2016–2018
 
-**Bachelor of Biomedical Science** — Victoria University
-
----
-
-## **Certifications**
-
-Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d)) • Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
+**Bachelor of Biomedical Science** — Victoria University *(Dean's List)* · 2013–2015
 
 ---
 

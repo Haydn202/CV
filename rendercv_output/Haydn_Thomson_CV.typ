@@ -62,7 +62,7 @@
   section-titles-space-above: 0.38cm,
   section-titles-space-below: 0.2cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.2cm,
+  sections-space-between-text-based-entries: 0.14cm,
   sections-space-between-regular-entries: 0.42cm,
   entries-date-and-location-width: 4.2cm,
   entries-side-space: 0.2cm,
@@ -100,6 +100,15 @@
 == Profile
 
 Senior Software Engineer specializing in backend systems, cloud engineering, and DevOps. Proven track record of reducing cloud costs by \$100K+ per month and building scalable CI\/CD pipelines and microservice architectures. Strong focus on system reliability, automation, and developer productivity. Seeking to contribute high-impact engineering expertise.
+
+== Skills
+
+#strong[Languages & platforms:] C\#, .NET, TypeScript, Python, Bash, PowerShell
+
+#strong[Cloud & infrastructure:] Azure, Kubernetes, Docker, Helm, Terraform, Pulumi, Azure DevOps, CI\/CD
+
+#strong[Certifications:] Azure Fundamentals (#link("https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d")[AZ-900]) • Kubernetes and Cloud Native Associate (#link("https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile")[KCNA])
+
 
 == Experience
 
@@ -179,42 +188,11 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 == Education
 
-#education-entry(
-  [
-    #strong[Master of Software Development] — Victoria University #emph[(Distinction)]
+#strong[Master of Software Development] — Victoria University #emph[(Distinction)] · 2020–2021
 
-  ],
-  [
-    2020 – 2021
+#strong[Master of Molecular Microbiology] — Victoria University #emph[(First Class Honours)] · 2016–2018
 
-  ],
-)
-
-#education-entry(
-  [
-    #strong[Master of Molecular Microbiology] — Victoria University #emph[(First Class Honours)]
-
-  ],
-  [
-    2016 – 2018
-
-  ],
-)
-
-#education-entry(
-  [
-    #strong[Bachelor of Biomedical Science] — Victoria University
-
-  ],
-  [
-    2013 – 2015
-
-  ],
-)
-
-== Certifications
-
-Azure Fundamentals (#link("https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d")[AZ-900]) • Kubernetes and Cloud Native Associate (#link("https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile")[KCNA])
+#strong[Bachelor of Biomedical Science] — Victoria University #emph[(Dean's List)] · 2013–2015
 
 == Mentoring
 
