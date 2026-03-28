@@ -38,11 +38,11 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 ### **Senior Software Developer — OSPRI**
 
-*2023 – Present*
+*2023 – 2025*
 
-* Developed and maintained event-driven microservices using C# and .NET
-* Led cloud optimization initiatives, reducing infrastructure costs by $100K+ per month
-* Contributed to system architecture and cloud design decisions
+* Built and maintained event-driven microservices in C#/.NET supporting scalable production systems
+* Led cloud cost optimization initiatives, reducing infrastructure spend by $100K+ per month
+* Contributed to system architecture and cloud design for scalable microservices platform
 * Mentored engineers and supported team capability growth
 
 
@@ -72,14 +72,14 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 ## **Education**
 
-**Master of Software Development** — Victoria University *(Distinction)* · 2020–2021
+**Master of Software Development** — Victoria University *(Distinction)*
 
-**Master of Molecular Microbiology** — Victoria University *(First Class Honours)* · 2016–2018
+**Master of Molecular Microbiology** — Victoria University *(First Class Honours)*
 
-**Bachelor of Biomedical Science** — Victoria University *(Dean's List)* · 2013–2015
+**Bachelor of Biomedical Science** — Victoria University *(Dean's List)*
 
 ---
 
 ## **Mentoring**
 
-Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps (2+ years)
+Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps

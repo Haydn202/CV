@@ -24,7 +24,7 @@
   colors-links: rgb(0, 79, 144),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
-  typography-line-spacing: 0.68em,
+  typography-line-spacing: 0.62em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
   typography-font-family-body: "Source Sans 3",
@@ -63,10 +63,10 @@
   section-titles-space-below: 0.2cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.14cm,
-  sections-space-between-regular-entries: 0.42cm,
-  entries-date-and-location-width: 4.2cm,
-  entries-side-space: 0.2cm,
-  entries-space-between-columns: 0.1cm,
+  sections-space-between-regular-entries: 0.36cm,
+  entries-date-and-location-width: 3.5cm,
+  entries-side-space: 0.18cm,
+  entries-space-between-columns: 0.07cm,
   entries-allow-page-break: false,
   entries-short-second-row: true,
   entries-degree-width: 1cm,
@@ -74,7 +74,7 @@
   entries-summary-space-above: 0.1cm,
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
-  entries-highlights-space-left: 0.4cm,
+  entries-highlights-space-left: 0.36cm,
   entries-highlights-space-above: 0.09cm,
   entries-highlights-space-between-items: 0.1cm,
   entries-highlights-space-between-bullet-and-text: 0.36em,
@@ -137,17 +137,17 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
   [
     #strong[Senior Software Developer], OSPRI
 
-    - Developed and maintained event-driven microservices using C\# and .NET
+    - Built and maintained event-driven microservices in C\#\/.NET supporting scalable production systems
 
-    - Led cloud optimization initiatives, reducing infrastructure costs by \$100K+ per month
+    - Led cloud cost optimization initiatives, reducing infrastructure spend by \$100K+ per month
 
-    - Contributed to system architecture and cloud design decisions
+    - Contributed to system architecture and cloud design for scalable microservices platform
 
     - Mentored engineers and supported team capability growth
 
   ],
   [
-    2023 – present
+    2023 – 2025
 
   ],
 )
@@ -188,12 +188,12 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 == Education
 
-#strong[Master of Software Development] — Victoria University #emph[(Distinction)] · 2020–2021
+#strong[Master of Software Development] — Victoria University #emph[(Distinction)]
 
-#strong[Master of Molecular Microbiology] — Victoria University #emph[(First Class Honours)] · 2016–2018
+#strong[Master of Molecular Microbiology] — Victoria University #emph[(First Class Honours)]
 
-#strong[Bachelor of Biomedical Science] — Victoria University #emph[(Dean's List)] · 2013–2015
+#strong[Bachelor of Biomedical Science] — Victoria University #emph[(Dean's List)]
 
 == Mentoring
 
-Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps (2+ years)
+Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps

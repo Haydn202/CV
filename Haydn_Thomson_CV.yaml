@@ -38,11 +38,11 @@ cv:
       - company: OSPRI
         position: Senior Software Developer
         start_date: 2023
-        end_date: present
+        end_date: 2025
         highlights:
-          - Developed and maintained event-driven microservices using C# and .NET
-          - Led cloud optimization initiatives, reducing infrastructure costs by $100K+ per month
-          - Contributed to system architecture and cloud design decisions
+          - Built and maintained event-driven microservices in C#/.NET supporting scalable production systems
+          - Led cloud cost optimization initiatives, reducing infrastructure spend by $100K+ per month
+          - Contributed to system architecture and cloud design for scalable microservices platform
           - Mentored engineers and supported team capability growth
 
       - company: OSPRI
@@ -72,12 +72,12 @@ cv:
 
     # One string per degree so Typst emits separate blocks (single multiline paragraph joins lines).
     education:
-      - "**Master of Software Development** — Victoria University *(Distinction)* · 2020–2021"
-      - "**Master of Molecular Microbiology** — Victoria University *(First Class Honours)* · 2016–2018"
-      - "**Bachelor of Biomedical Science** — Victoria University *(Dean's List)* · 2013–2015"
+      - "**Master of Software Development** — Victoria University *(Distinction)*"
+      - "**Master of Molecular Microbiology** — Victoria University *(First Class Honours)*"
+      - "**Bachelor of Biomedical Science** — Victoria University *(Dean's List)*"
 
     mentoring:
-      - Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps (2+ years)
+      - Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps
 
 design:
   theme: engineeringresumes
@@ -100,7 +100,7 @@ design:
 
   typography:
     alignment: justified
-    line_spacing: 0.68em
+    line_spacing: 0.62em
     font_family: Source Sans 3
     font_size:
       body: 10pt
@@ -127,19 +127,21 @@ design:
     space_below: 0.2cm
 
   sections:
-    space_between_regular_entries: 0.42cm
+    space_between_regular_entries: 0.36cm
     # Slightly tighter gaps between profile / skills / mentoring text blocks
     space_between_text_based_entries: 0.14cm
     show_time_spans_in: []
 
   entries:
-    date_and_location_width: 4.2cm
-    side_space: 0.2cm
+    # Wider main column (1fr) so long job titles / bullets wrap less — date col still fits "Jan 2025 – present" etc.
+    date_and_location_width: 3.5cm
+    space_between_columns: 0.07cm
+    side_space: 0.18cm
     short_second_row: true
     summary:
       space_above: 0.1cm
     highlights:
-      space_left: 0.4cm
+      space_left: 0.36cm
       space_above: 0.09cm
       space_between_items: 0.1cm
       space_between_bullet_and_text: 0.36em
