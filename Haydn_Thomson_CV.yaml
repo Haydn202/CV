@@ -54,13 +54,13 @@ cv:
         highlights:
           - Contributed to development of event-driven .NET microservices
 
-      - company: Ministry for Primary Industries
-        position: Senior Technician (Team Lead)
-        start_date: 2018
-        end_date: 2020
-        highlights:
-          - Led and trained team members in high-throughput laboratory environment
-          - Improved team efficiency and turnaround of sample processing
+      # - company: Ministry for Primary Industries
+      #   position: Senior Technician (Team Lead)
+      #   start_date: 2018
+      #   end_date: 2020
+      #   highlights:
+      #     - Led and trained team members in high-throughput laboratory environment
+      #     - Improved team efficiency and turnaround of sample processing
 
     education:
       - institution: Victoria University

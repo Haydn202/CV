@@ -177,21 +177,6 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
   ],
 )
 
-#regular-entry(
-  [
-    #strong[Senior Technician (Team Lead)], Ministry for Primary Industries
-
-    - Led and trained team members in high-throughput laboratory environment
-
-    - Improved team efficiency and turnaround of sample processing
-
-  ],
-  [
-    2018 – 2020
-
-  ],
-)
-
 == Education
 
 #education-entry(

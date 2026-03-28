@@ -59,16 +59,6 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 ---
 
-### **Senior Technician (Team Lead) — Ministry for Primary Industries**
-
-*2018 – 2020*
-
-* Led and trained team members in high-throughput laboratory environment
-* Improved team efficiency and turnaround of sample processing
-
-
----
-
 ## **Education**
 
 **Master of Software Development** — Victoria University *(Distinction)*
