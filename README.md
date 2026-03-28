@@ -22,3 +22,15 @@ rendercv render Haydn_Thomson_CV.yaml
 ```
 
 Docs: https://docs.rendercv.com/
+
+## Cover letter (Typst)
+
+A separate [Typst](https://typst.app/) template lives in `letters/cover_letter.typ` (same rough margins, accent colour, and **Source Sans 3** as the CV). Edit the `#let …` values at the top and replace the placeholder body.
+
+Install the Typst CLI (e.g. `brew install typst` on macOS), then from the repo root:
+
+```bash
+typst compile letters/cover_letter.typ letters/cover_letter.pdf
+```
+
+On Windows, use the same command after [installing Typst](https://github.com/typst/typst/releases) and ensuring `typst` is on your `PATH`.
