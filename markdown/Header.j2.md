@@ -1,19 +1,6 @@
-# <<cv.name>>'s CV
+# **{{ cv.name }}**
 
-((* if cv.phone *))
-- Phone: <<cv.phone|replace("tel:", "")|replace("-"," ")>>
-((* endif *))
-((* if cv.email *))
-- Email: [<<cv.email>>](mailto:<<cv.email>>)
-((* endif *))
-((* if cv.location *))
-- Location: <<cv.location>>
-((* endif *))
-((* if cv.website *))
-- Website: [<<cv.website|replace("https://","")|replace("/","")>>](<<cv.website>>)
-((* endif *))
-((* if cv.social_networks *))
-    ((* for network in cv.social_networks *))
-- <<network.network>>: [<<network.username>>](<<network.url>>)
-    ((* endfor *))
-((* endif *))
+{% set phone = cv.phone | default('', true) %}
+{% set digits = phone | replace('tel:', '') | replace('+', '') | replace('-', '') | replace(' ', '') %}
+{% if cv.location %}{{ cv.location }}{% endif %}{% if phone %} • {% if digits[:2] == '64' %}+64 {{ digits[2:5] }} {{ digits[5:8] }} {{ digits[8:] }}{% else %}{{ phone | replace('tel:', '') }}{% endif %}{% endif %}{% if cv.email %} • [{{ cv.email }}](mailto:{{ cv.email }}){% endif %}
+

@@ -1,12 +1,14 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.1.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Haydn Thomson",
+  title: "Haydn Thomson - CV",
   footer: context { [#emph[Haydn Thomson -- #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [ #emph[Last updated in Mar 2026] ],
   locale-catalog-language: "en",
+  text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 2cm,
   page-bottom-margin: 2cm,
@@ -67,6 +69,7 @@
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
+  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.08cm,
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
@@ -78,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 3,
-    day: 2,
+    day: 28,
   ),
 )
 
@@ -95,7 +98,7 @@
 
 == Profile
 
-Dedicated Software Engineer with a strong background in DevOps, Cloud Engineering, and full-stack development. At OSPRI, I lead cloud optimization initiatives, reducing costs by over \\\$100,000 monthly. Known for quickly learning new skills and solving complex problems, I am seeking a new role to expand my expertise and make impactful contributions.
+Senior Software Engineer specializing in backend systems, cloud engineering, and DevOps. Proven track record of reducing cloud costs by \$100K+ per month and building scalable CI\/CD pipelines and microservice architectures. Strong focus on system reliability, automation, and developer productivity. Seeking to contribute high-impact engineering expertise.
 
 == Experience
 
@@ -109,15 +112,15 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
   ],
   main-column-second-row: [
-    - Built CI\/CD pipelines to automate builds and deployments, turning a lengthy error-prone process into a repeatable workflow and reducing deployment time from hours to under 5 minutes.
+    - Early engineer in product in-housing; helped define engineering processes and technical direction
 
-    - Created E2E and integration test suites integrated into CI\/CD pipelines to improve reliability and catch regressions early.
+    - Built CI\/CD pipelines reducing deployment time from hours to under 5 minutes
 
-    - Refactored legacy systems to modern standards and patterns while delivering major new features.
+    - Implemented end-to-end and integration testing to improve release reliability
 
-    - Introduced an agentic AI-assisted coding process for the software team.
+    - Refactored legacy systems while delivering new features
 
-    - Mentor and train junior staff in best practices and tooling.
+    - Introduced AI-assisted development workflows to improve team productivity
 
   ],
 )
@@ -132,22 +135,20 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
   ],
   main-column-second-row: [
-    - Develop event-driven microservice system with C\# and .Net.
+    - Developed and maintained event-driven microservices using C\# and .NET
 
-    - Create Single page application UI using Angular and Typescript.
+    - Led cloud optimization initiatives, reducing infrastructure costs by \$100K+ per month
 
-    - Lead DevOps and Cloud Engineering work reducing monthly costs by over \\\$100,000.
+    - Contributed to system architecture and cloud design decisions
 
-    - Mentor and train other staff.
-
-    - Contribute to system design and cloud architecture.
+    - Mentored engineers and supported team capability growth
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Cloud Infrastructure DevOps Engineer], OSPRI
+    #strong[Cloud Infrastructure \/ DevOps Engineer], OSPRI
 
   ],
   [
@@ -155,15 +156,15 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
   ],
   main-column-second-row: [
-    - Create and maintain Cloud Infrastructure using Infrastructure as Code tools including Terraform and Pulumi.
+    - Designed and maintained cloud infrastructure using Terraform and Pulumi (IaC)
 
-    - Set up CI\/CD pipelines with Azure DevOps to automate integration, deployment, and testing.
+    - Built CI\/CD pipelines in Azure DevOps to automate deployment and testing
 
-    - Create automation scripts with Bash, Powershell, and Python.
+    - Managed containerized microservices in Kubernetes using Docker and Helm
 
-    - Manage microservice based system in Kubernetes with tools such as Helm, and the container technology Docker.
+    - Developed automation tooling using Bash, PowerShell, and Python
 
-    - Fullstack Development of a SPA UI with angular and typescript and backend services using .Net and C\#.
+    - Contributed to full-stack development (Angular, TypeScript, .NET)
 
   ],
 )
@@ -174,18 +175,18 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
   ],
   [
-    Mar 2021 – Aug 2021
+    2021
 
   ],
   main-column-second-row: [
-    - Develop event driven .Net microservice APIs as part of a new system.
+    - Contributed to development of event-driven .NET microservices
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Senior Technician - Team Lead], MPI
+    #strong[Senior Technician (Team Lead)], Ministry for Primary Industries
 
   ],
   [
@@ -193,9 +194,9 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
   ],
   main-column-second-row: [
-    - Supervise, organise, and train junior staff members.
+    - Led and trained team members in high-throughput laboratory environment
 
-    - Work as part of a team to efficiently process samples and provide results promptly.
+    - Improved team efficiency and turnaround of sample processing
 
   ],
 )
@@ -204,7 +205,7 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
 #education-entry(
   [
-    #strong[Victoria University], Masters Degree in Software Development
+    #strong[Victoria University], Master in Software Development
 
   ],
   [
@@ -212,14 +213,14 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
   ],
   main-column-second-row: [
-    - #strong[Grade]: Distinction
+    - Distinction
 
   ],
 )
 
 #education-entry(
   [
-    #strong[Victoria University], Masters Degree in Molecular Microbiology
+    #strong[Victoria University], Master in Molecular Microbiology
 
   ],
   [
@@ -227,16 +228,14 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
   ],
   main-column-second-row: [
-    - #strong[Grade]: First Class Honors
-
-    - Research conducted in the Center for Bio-discovery at Victoria University.
+    - First Class Honours
 
   ],
 )
 
 #education-entry(
   [
-    #strong[Victoria University], Bachelors degree in Biomedical Science
+    #strong[Victoria University], Bachelor in Biomedical Science
 
   ],
   [
@@ -244,17 +243,15 @@ Dedicated Software Engineer with a strong background in DevOps, Cloud Engineerin
 
   ],
   main-column-second-row: [
-    - #strong[Achivements:] Deans List of Academic Excellence
+    - Dean's List
 
   ],
 )
 
-== Professional Development
-
-I am a member of a mentoring program at Victoria University where I mentor Software Development students to prepare them for entering the IT industry. As part of this, I give them insights into careers and technologies not well covered by their university courses such as Cloud Engineering and DevOps. I have been involved in this for two years.
-
 == Certifications
 
-Microsoft Certified Azure Fundamentals (#link("https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d")[AZ-900])
+Azure Fundamentals (#link("https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d")[AZ-900]) • Kubernetes and Cloud Native Associate (#link("https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile")[KCNA])
 
-Kubernetes and Cloud Native Associate (#link("https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile")[KCNA])
+== Mentoring
+
+Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps (2+ years)

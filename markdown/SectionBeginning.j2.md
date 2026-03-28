@@ -1,1 +1,4 @@
-# <<section_title>>
+---
+
+## **{{ section_title }}**
+

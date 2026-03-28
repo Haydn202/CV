@@ -12,7 +12,7 @@ cv:
       fontawesome_icon: github
   sections:
     profile:
-      - Dedicated Software Engineer with a strong background in DevOps, Cloud Engineering, and full-stack development. At OSPRI, I lead cloud optimization initiatives, reducing costs by over \$100,000 monthly. Known for quickly learning new skills and solving complex problems, I am seeking a new role to expand my expertise and make impactful contributions.
+      - Senior Software Engineer specializing in backend systems, cloud engineering, and DevOps. Proven track record of reducing cloud costs by $100K+ per month and building scalable CI/CD pipelines and microservice architectures. Strong focus on system reliability, automation, and developer productivity. Seeking to contribute high-impact engineering expertise.
 
     experience:
       - company: ComplyWith
@@ -20,82 +20,77 @@ cv:
         start_date: 2025-01
         end_date: present
         highlights:
-          - One of the original software engineers after the company in-housed their product; contributed to defining the development process and led the technical transition.
-          - Built CI/CD pipelines to automate builds and deployments, turning a lengthy error-prone process into a repeatable workflow and reducing deployment time from hours to under 5 minutes.
-          - Created E2E and integration test suites integrated into CI/CD pipelines to improve reliability and catch regressions early.
-          - Refactored legacy systems to modern standards and patterns while delivering major new features.
-          - Introduced an agentic AI-assisted coding process for the software team.
-          - Mentor and train junior staff in best practices and tooling.
+          - Early engineer in product in-housing; helped define engineering processes and technical direction
+          - Built CI/CD pipelines reducing deployment time from hours to under 5 minutes
+          - Implemented end-to-end and integration testing to improve release reliability
+          - Refactored legacy systems while delivering new features
+          - Introduced AI-assisted development workflows to improve team productivity
 
       - company: OSPRI
         position: Senior Software Developer
         start_date: 2023
         end_date: present
         highlights:
-          - Develop event-driven microservice system with C# and .Net.
-          - Create Single page application UI using Angular and Typescript.
-          - Lead DevOps and Cloud Engineering work reducing monthly costs by over \$100,000.
-          - Mentor and train other staff.
-          - Contribute to system design and cloud architecture.
+          - Developed and maintained event-driven microservices using C# and .NET
+          - Led cloud optimization initiatives, reducing infrastructure costs by $100K+ per month
+          - Contributed to system architecture and cloud design decisions
+          - Mentored engineers and supported team capability growth
 
       - company: OSPRI
-        position: Cloud Infrastructure DevOps Engineer
+        position: Cloud Infrastructure / DevOps Engineer
         start_date: 2021
         end_date: 2023
         highlights:
-          - Create and maintain Cloud Infrastructure using Infrastructure as Code tools including Terraform and Pulumi.
-          - Set up CI/CD pipelines with Azure DevOps to automate integration, deployment, and testing.
-          - Create automation scripts with Bash, Powershell, and Python.
-          - Manage microservice based system in Kubernetes with tools such as Helm, and the container technology Docker.
-          - Fullstack Development of a SPA UI with angular and typescript and backend services using .Net and C#.
+          - Designed and maintained cloud infrastructure using Terraform and Pulumi (IaC)
+          - Built CI/CD pipelines in Azure DevOps to automate deployment and testing
+          - Managed containerized microservices in Kubernetes using Docker and Helm
+          - Developed automation tooling using Bash, PowerShell, and Python
+          - Contributed to full-stack development (Angular, TypeScript, .NET)
 
       - company: OSPRI
         position: Software Developer
-        start_date: 2021-03
-        end_date: 2021-08
+        date: 2021
         highlights:
-          - Develop event driven .Net microservice APIs as part of a new system.
+          - Contributed to development of event-driven .NET microservices
 
-      - company: MPI
-        position: Senior Technician - Team Lead
+      - company: Ministry for Primary Industries
+        position: Senior Technician (Team Lead)
         start_date: 2018
         end_date: 2020
         highlights:
-          - Supervise, organise, and train junior staff members.
-          - Work as part of a team to efficiently process samples and provide results promptly.
+          - Led and trained team members in high-throughput laboratory environment
+          - Improved team efficiency and turnaround of sample processing
 
     education:
       - institution: Victoria University
         area: Software Development
-        degree: Masters Degree
+        degree: Master
         start_date: 2020
         end_date: 2021
         highlights:
-          - '**Grade**: Distinction'
+          - Distinction
 
       - institution: Victoria University
         area: Molecular Microbiology
-        degree: Masters Degree
+        degree: Master
         start_date: 2016
         end_date: 2018
         highlights:
-          - '**Grade**: First Class Honors'
-          - 'Research conducted in the Center for Bio-discovery at Victoria University.'
+          - First Class Honours
 
       - institution: Victoria University
         area: Biomedical Science
-        degree: Bachelors degree
+        degree: Bachelor
         start_date: 2013
         end_date: 2015
         highlights:
-          - '**Achivements:** Deans List of Academic Excellence'
-
-    professional_development:
-      - I am a member of a mentoring program at Victoria University where I mentor Software Development students to prepare them for entering the IT industry. As part of this, I give them insights into careers and technologies not well covered by their university courses such as Cloud Engineering and DevOps. I have been involved in this for two years.
+          - Dean's List
 
     certifications:
-      - Microsoft Certified Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d))
-      - Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
+      - Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d)) • Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
+
+    mentoring:
+      - Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps (2+ years)
 
 design:
   theme: engineeringresumes
