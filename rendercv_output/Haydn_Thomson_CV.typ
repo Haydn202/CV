@@ -24,7 +24,7 @@
   colors-links: rgb(0, 79, 144),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
-  typography-line-spacing: 0.58em,
+  typography-line-spacing: 0.68em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
   typography-font-family-body: "Source Sans 3",
@@ -36,7 +36,7 @@
   typography-font-size-name: 28pt,
   typography-font-size-headline: 10pt,
   typography-font-size-connections: 10pt,
-  typography-font-size-section-titles: 1.28em,
+  typography-font-size-section-titles: 1.32em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
@@ -49,35 +49,35 @@
   links-show-external-link-icon: true,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.22cm,
-  header-space-below-headline: 0.22cm,
-  header-space-below-connections: 0.22cm,
+  header-space-below-name: 0.3cm,
+  header-space-below-headline: 0.3cm,
+  header-space-below-connections: 0.32cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: true,
   header-connections-display-urls-instead-of-usernames: true,
   header-connections-separator: "",
-  header-connections-space-between-connections: 0.48cm,
+  header-connections-space-between-connections: 0.56cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.3cm,
-  section-titles-space-below: 0.14cm,
+  section-titles-space-above: 0.38cm,
+  section-titles-space-below: 0.2cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.12cm,
-  sections-space-between-regular-entries: 0.32cm,
+  sections-space-between-text-based-entries: 0.2cm,
+  sections-space-between-regular-entries: 0.42cm,
   entries-date-and-location-width: 4.2cm,
-  entries-side-space: 0.18cm,
+  entries-side-space: 0.2cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: true,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
-  entries-summary-space-above: 0.07cm,
+  entries-summary-space-above: 0.1cm,
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
-  entries-highlights-space-left: 0.38cm,
-  entries-highlights-space-above: 0.06cm,
-  entries-highlights-space-between-items: 0.07cm,
-  entries-highlights-space-between-bullet-and-text: 0.3em,
+  entries-highlights-space-left: 0.4cm,
+  entries-highlights-space-above: 0.09cm,
+  entries-highlights-space-between-items: 0.1cm,
+  entries-highlights-space-between-bullet-and-text: 0.36em,
   date: datetime(
     year: 2026,
     month: 3,
@@ -196,9 +196,7 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 #education-entry(
   [
-    #strong[Victoria University], Master in Software Development
-
-    - Distinction
+    #strong[Master of Software Development] — Victoria University #emph[(Distinction)]
 
   ],
   [
@@ -209,9 +207,7 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 #education-entry(
   [
-    #strong[Victoria University], Master in Molecular Microbiology
-
-    - First Class Honours
+    #strong[Master of Molecular Microbiology] — Victoria University #emph[(First Class Honours)]
 
   ],
   [
@@ -222,9 +218,7 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 #education-entry(
   [
-    #strong[Victoria University], Bachelor in Biomedical Science
-
-    - Dean's List
+    #strong[Bachelor of Biomedical Science] — Victoria University
 
   ],
   [

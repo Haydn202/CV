@@ -68,24 +68,20 @@ cv:
         degree: Master
         start_date: 2020
         end_date: 2021
-        highlights:
-          - Distinction
+        summary: Distinction
 
       - institution: Victoria University
         area: Molecular Microbiology
         degree: Master
         start_date: 2016
         end_date: 2018
-        highlights:
-          - First Class Honours
+        summary: First Class Honours
 
       - institution: Victoria University
         area: Biomedical Science
         degree: Bachelor
         start_date: 2013
         end_date: 2015
-        highlights:
-          - Dean's List
 
     certifications:
       - Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d)) • Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
@@ -114,45 +110,51 @@ design:
 
   typography:
     alignment: justified
-    line_spacing: 0.58em
+    line_spacing: 0.68em
     font_family: Source Sans 3
     font_size:
       body: 10pt
       name: 28pt
       headline: 10pt
       connections: 10pt
-      section_titles: 1.28em
+      section_titles: 1.32em
 
   links:
     show_external_link_icon: true
 
   header:
-    space_below_name: 0.22cm
-    space_below_headline: 0.22cm
-    space_below_connections: 0.22cm
+    space_below_name: 0.3cm
+    space_below_headline: 0.3cm
+    space_below_connections: 0.32cm
     connections:
       show_icons: true
       separator: ''
-      space_between_connections: 0.48cm
+      space_between_connections: 0.56cm
 
   section_titles:
     type: with_full_line
-    space_above: 0.3cm
-    space_below: 0.14cm
+    space_above: 0.38cm
+    space_below: 0.2cm
 
   sections:
-    space_between_regular_entries: 0.32cm
-    space_between_text_based_entries: 0.12cm
+    space_between_regular_entries: 0.42cm
+    space_between_text_based_entries: 0.2cm
     show_time_spans_in: []
 
   entries:
     date_and_location_width: 4.2cm
-    side_space: 0.18cm
+    side_space: 0.2cm
     short_second_row: true
     summary:
-      space_above: 0.07cm
+      space_above: 0.1cm
     highlights:
-      space_left: 0.38cm
-      space_above: 0.06cm
-      space_between_items: 0.07cm
-      space_between_bullet_and_text: 0.3em
+      space_left: 0.4cm
+      space_above: 0.09cm
+      space_between_items: 0.1cm
+      space_between_bullet_and_text: 0.36em
+
+  templates:
+    education_entry:
+      main_column: "**DEGREE of AREA** — INSTITUTION *(SUMMARY)*"
+      date_and_location_column: DATE
+      degree_column: null

@@ -75,7 +75,7 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 **Master of Molecular Microbiology** — Victoria University *(First Class Honours)*
 
-**Bachelor of Biomedical Science** — Victoria University *(Dean's List)*
+**Bachelor of Biomedical Science** — Victoria University
 
 ---
 
