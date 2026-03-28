@@ -17,7 +17,7 @@ cv:
 
     skills:
       - |
-        **Languages & platforms:** C#, .NET, TypeScript, Python, Bash, PowerShell
+        **Languages:** C#, .NET, TypeScript, Python, Bash, PowerShell
 
         **Cloud & infrastructure:** Azure, Kubernetes, Docker, Helm, Terraform, Pulumi, Azure DevOps, CI/CD
 
@@ -29,7 +29,7 @@ cv:
         start_date: 2025-01
         end_date: present
         highlights:
-          - Early engineer in product in-housing; helped define engineering processes and technical direction
+          - Early engineer during product in-housing; defined engineering processes and technical direction
           - Built CI/CD pipelines reducing deployment time from hours to under 5 minutes
           - Implemented end-to-end and integration testing to improve release reliability
           - Refactored legacy systems while delivering new features
@@ -77,7 +77,7 @@ cv:
       - "**Bachelor of Biomedical Science** — Victoria University *(Dean's List)*"
 
     mentoring:
-      - Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps
+      - Mentor, Victoria University — Mentoring software development students in software development, cloud engineering and DevOps
 
 design:
   theme: engineeringresumes

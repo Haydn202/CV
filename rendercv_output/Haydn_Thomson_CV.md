@@ -12,7 +12,7 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 ## **Skills**
 
-**Languages & platforms:** C#, .NET, TypeScript, Python, Bash, PowerShell
+**Languages:** C#, .NET, TypeScript, Python, Bash, PowerShell
 
 **Cloud & infrastructure:** Azure, Kubernetes, Docker, Helm, Terraform, Pulumi, Azure DevOps, CI/CD
 
@@ -27,7 +27,7 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 *Jan 2025 – Present*
 
-* Early engineer in product in-housing; helped define engineering processes and technical direction
+* Early engineer during product in-housing; defined engineering processes and technical direction
 * Built CI/CD pipelines reducing deployment time from hours to under 5 minutes
 * Implemented end-to-end and integration testing to improve release reliability
 * Refactored legacy systems while delivering new features
@@ -82,4 +82,4 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 ## **Mentoring**
 
-Mentor, Victoria University — Supporting software development students with career guidance in cloud engineering and DevOps
+Mentor, Victoria University — Mentoring software development students in software development, cloud engineering and DevOps
