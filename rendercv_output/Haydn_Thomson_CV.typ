@@ -1,14 +1,12 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.3.0": *
+#import "@preview/rendercv:0.1.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Haydn Thomson",
-  title: "Haydn Thomson - CV",
   footer: context { [#emph[Haydn Thomson -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Mar 2026] ],
+  top-note: [ #emph[Last updated in Apr 2026] ],
   locale-catalog-language: "en",
-  text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 1.65cm,
   page-bottom-margin: 1.65cm,
@@ -69,7 +67,6 @@
   entries-space-between-columns: 0.07cm,
   entries-allow-page-break: false,
   entries-short-second-row: true,
-  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.1cm,
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
@@ -80,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.36em,
   date: datetime(
     year: 2026,
-    month: 3,
-    day: 28,
+    month: 4,
+    day: 13,
   ),
 )
 
@@ -103,12 +100,11 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 == Skills
 
-#strong[Languages:] C\#, .NET, TypeScript, Python, Bash, PowerShell
+#strong[Languages:] C\#, .NET, TypeScript, Angular, React, Python, Bash, PowerShell
 
 #strong[Cloud & infrastructure:] Azure, Kubernetes, Docker, Helm, Terraform, Pulumi, Azure DevOps, CI\/CD
 
 #strong[Certifications:] Azure Fundamentals (#link("https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d")[AZ-900]) • Kubernetes and Cloud Native Associate (#link("https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile")[KCNA])
-
 
 == Experience
 
@@ -122,7 +118,7 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
     - Implemented end-to-end and integration testing to improve release reliability
 
-    - Refactored legacy systems while delivering new features
+    - Refactored legacy systems while delivering new features with a .Net backend and React UI
 
     - Introduced AI-assisted development workflows to improve team productivity
 

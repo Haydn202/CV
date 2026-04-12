@@ -12,12 +12,11 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 
 ## **Skills**
 
-**Languages:** C#, .NET, TypeScript, Python, Bash, PowerShell
+**Languages:** C#, .NET, TypeScript, Angular, React, Python, Bash, PowerShell
 
 **Cloud & infrastructure:** Azure, Kubernetes, Docker, Helm, Terraform, Pulumi, Azure DevOps, CI/CD
 
 **Certifications:** Azure Fundamentals ([AZ-900](https://learn.microsoft.com/en-us/users/haydnthomson-6904/transcript/v0n2hmx59395k1d)) • Kubernetes and Cloud Native Associate ([KCNA](https://www.credly.com/badges/932c300a-ba48-41fd-8bd4-32938e1d4f5b/linked_in_profile))
-
 
 ---
 
@@ -30,7 +29,7 @@ Senior Software Engineer specializing in backend systems, cloud engineering, and
 * Early engineer during product in-housing; defined engineering processes and technical direction
 * Built CI/CD pipelines reducing deployment time from hours to under 5 minutes
 * Implemented end-to-end and integration testing to improve release reliability
-* Refactored legacy systems while delivering new features
+* Refactored legacy systems while delivering new features with a .Net backend and React UI
 * Introduced AI-assisted development workflows to improve team productivity
 
 
